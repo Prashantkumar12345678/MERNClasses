@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <title> Blog Site</title>
+        </head>
+        <header> head </header>
+        <main>
+            <a href="#assay">Assay1</a>
+            <a href="#poem">poem1</a>
+            <!-- <h1>My Blog </h1>  -->
+            <h2>MY Blog</h2>
+            <!-- <h6> Last Heading</h6> -->
+            <p>
+                This <b> <em>is</em>  </b>  my first Blog 
+                I am a Student of  <br>
+                this is  <strong> <i> <u> the first time</u> </i></strong> i have write something 
+                about <ins>the</ins> blog . 
+                <br>
+                the date of my first blog is <b><del>13</del></b> <b><ins>14</ins></b> feb.
+                
+                <br>
+                &nbsp;
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia facilis assumenda ut earum, omnis suscipit accusantium dolorem vitae dicta ratione nisi doloremque sequi nostrum perspiciatis tempore voluptatum qui laudantium.
+                <br>
+
+                <span>this is span</span>
+                <br>
+
+                 &lt;&gt;
+
+            </p>
+            <p>
+                <a href="/home"> this is my blog</a> <br>
+                <a href="https://www.google.com">Hii GOOGLE</a>
+
+                <img height="300" src="https://images.freeimages.com/variants/DVg6TTGcRiJSdhEbY212DbAu/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d" alt="image">
+
+            </p>
+            <p>
+                <h2 title="my.blog.com" > This is my Blog</h2>
+
+                <iframe src="https://www.flipkart.com" frameborder="10"></iframe>
+                <iframe src="https://www.amazon.com" frameborder="10"></iframe>
+            </p>
+            
+                <a target="_blank" href="/content.html"> this content blank </a> <br>
+                <a target="_self" href="/home.html"> this home self</a><br>
+                <a target="_parent" href="/content.html">this content parent</a><br>
+                <a target="_top" href="/content.html">this content top</a><br>
+
+            
+   
+             <section id="poem">
+                <h3>poem1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, debitis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
+             </section>
+             <hr>
+            <section id="assay">
+                <h3>Assay1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea maiores error non placeat eveniet impedit neque enim iste quos odio, tempore quae iure voluptate earum quaerat voluptatem nobis at voluptates!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tenetur minus autem quia cum enim repudiandae doloremque optio beatae mollitia asperiores, impedit consequatur saepe soluta aliquam libero maiores similique amet.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, delectus.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident error consequatur nemo quos, veritatis ullam.
+                </p>
+            </section>
+
+
+            <ol start="4" type="I">
+                <li>poem</li>
+                <li>assay</li>
+                <li>jokes</li>
+            </ol>
+            <ul type="square">
+                <li>poem</li>
+                <li>assay</li>
+                <li>jokes</li>
+            </ul>
+            <dl>
+                <dt>coffee</dt>
+                <dd>I like it cold</dd>
+                <dt> Tea</dt>
+                <dd> I like hot</dd>
+            </dl>
+
+            <table border="3" style="border-collapse: collapse;">
+                <caption> Students Data</caption>
+
+                <tr>
+                    <th>sr.no</th> 
+                    <th>name</th>
+                    <th>age</th>
+                    <th>class</th>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td colspan="2">Panwar</td>
+                    <td>22</td>
+                    <td>MCA</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Akshat</td>
+                    <td>23</td>
+                    <td>cMCa</td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jatin</td>
+                    <td>23</td>
+                    <td>MCA</td>
+
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Pratham</td>
+                    <td>22</td>
+                    <td>MCA</td>
+
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Sameesha</td>
+                    <td>19</td>
+                    <td>MCA</td>
+
+                </tr>
+                
+            </table>
+              <hr> 
+              <h3>Form tag</h3>
+            <form style="display: block;" action=""> 
+                <lable>Name</lable> <br>
+                <input type="text" name="userName" placeholder="please enter the name" required> 
+                <br><br>
+                 <label>Age</label><br>
+                <input type="number"  name="userAge"  placeholder="please enter your age" required> <br><br>
+                
+                <label>Password</label> <br>
+                <input type="number"  name="userPass" placeholder="please set password">
+                <br><br>
+                <label > Email</label> <br>
+                <input type="email"  name="userEmail" placeholder="enter email."> <br> <br>
+                <hr>
+                <label > Hobbies:</label> <br>
+                <input type="checkbox" id="criket" name="userHobbies" value="Criket"></input> <label for="Cirket"> Cirket</label> <br> <br>
+                
+                <input type="checkbox" id="hockey" name="userHobbies" value="Criket"></input> <label for="hockey"> hockey</label> <br> <br>
+                
+                <input type="checkbox" id="criket" name="userHobbies" value="football"></input> <label for="football"> football</label> <br> <br>
+
+                <label > Gender:</label> <br> 
+                <input type="radio" id="male" name="usergender" value="male"></input> <label for="male"> Male</label> 
+                <input type="radio" id="female" name="usergender" value="female"></input> <label for="female"> Female</label>
+                
+                
+                 <br> <br>
+                <button value="submitted the form">Submitted</button>
+                <button value="reset the form">Reset</button>
+                 
+                
+            </form> 
+            <hr>
+             
+             <textarea placeholder="enter the text" name="" id="" cols="30" rows="10"></textarea>
+             <hr>
+
+            
+             <label > CITY</label>
+              <select id="selectCITY" name="CITY">
+                <option >Ghazibad</option>
+                <option selected> shamli</option>
+                <option  >Delhi</option>
+              </select>
+              <br>
+              <hr>
+              <video src="https://videos.pexels.com/video-files/1321208/1321208-hd_1920_1080_30fps.mp4"  controls  autoplay loop muted height="300px"></video>
+             
+                 <br>
+                 <hr>
+                 <a href="mailto:XYZ@ABC.com"> EMAIL.ID </a> <BR></BR>
+                 <a href="tel:7060649830"> MOBILE NO.</a> <br>
+
+                 <bdo dir="rtl"> i am student</bdo> <br>
+                  CO<sub>2</sub>
+                  10<sup>2</sup>
+                  <br>
+                  <s>Hello</s>
+                  <del>Hello</del> <hr> 
+                  <br>
+
+
+
+
+                  <abbr title=""></abbr>
+                  <q>the </q>
+                  <blockquote></blockquote>
+                  <address></address>
+                  <cite></cite>
+                  <bdo dir=""></bdo>
+
+
+
+
+              
+ 
+
+
+
+        </main>
+
+
+        <hr>
+        <footer> Footer</footer>
+
+
+        
+    </body>
+</html>     

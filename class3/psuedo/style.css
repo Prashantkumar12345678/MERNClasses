@@ -1,0 +1,86 @@
+/* button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    padding: 8px 16px;
+    font-size: 24px;
+    border: none;
+    border-radius: 8px; 
+    transition-property: scale;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    background-color: yellow;
+    border: 2px solid black;
+
+}
+ button:hover{
+     background-color: aqua;
+     scale: 1.5;
+     /* cursor: pointer; */
+     /* transition-property: scale;
+    transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+
+
+ } */ 
+
+ /* animation */
+ button{
+    scale:2;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    animation-name: button-animation-type-1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    background-color: aqua;
+    border: 1PX SOLID BLACK;
+
+
+ }
+  @keyframes button-animation-type-1{
+    /* from{
+        top: 20px;
+        left:40px;
+
+    }
+     to{
+        top:200px;
+        left:400px;
+     } */
+     0%{
+        top: 20px;
+        left:40px;
+
+     }
+     30%{
+        top: 20px;
+        left:550px;
+     }
+     60%{
+        top: 500px;
+        left:500px;
+     }
+     100%{
+        top: 60px;
+        left:600px;
+     }
+  }
+  .parent{
+    display: flex;
+
+  }
+  .logo{
+    width: 50px;
+    border-bottom: 1px solid red;
+    padding: 16px;
+  }
+  .nav{
+    background-color: aqua;
+    padding: 10px;
+    width:calc(100%-50px);
+
+  }

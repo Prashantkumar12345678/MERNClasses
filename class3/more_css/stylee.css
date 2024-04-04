@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+.body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: aqua;
+}
+.parent{
+    position:fixed;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    top:100px;
+    left: 100px;
+
+    
+   
+}

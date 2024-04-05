@@ -1,0 +1,7 @@
+ obj={
+    "name":"ajay",
+     "lastName":"sing"
+ }
+ 
+ console.log(obj);
+ document.write(obj);
